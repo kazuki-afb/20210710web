@@ -1,0 +1,44 @@
+.con {
+  width: 100vw;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+.contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container_box {
+  width: 320px;
+  border: solid 1px ;
+  margin: 10px 25px;
+  padding: 10px 0;
+}
+.img_box {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+.img_box img {
+  height: 100%;
+  width: 100%;
+}
+.text_box {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 896px){
+
+}
